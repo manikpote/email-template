@@ -1,0 +1,577 @@
+.email-template-section {
+  font-family: "Poppins", sans-serif !important;
+  margin: 0;
+  background-color: #f8f8f8;
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+.email-template-section .total-card {
+  display: grid;
+  gap: 15px;
+  padding: 20px;
+  grid-template-columns: repeat(auto-fit, minmax(360px, 1fr));
+}
+
+.email-template-section .custom-card {
+  display: flex;
+  align-items: center;
+  column-gap: 30px;
+  background-color: #fff;
+  padding: 20px;
+  box-shadow: 0 10px 20px #0000000a, 0 2px 6px #0000000a, 0 0 1px #0000000a;
+  border-radius: 6px;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  -ms-border-radius: 6px;
+  -o-border-radius: 6px;
+}
+
+.email-template-section .info-block {
+  display: flex;
+  column-gap: 10px;
+  margin-bottom: 14px;
+}
+.email-template-section .icon-present img,
+.email-template-section .icon-late img,
+.email-template-section .icon-absent img {
+  padding: 8px;
+  margin-top: 10px;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+
+.email-template-section .icon-present img {
+  background-color: #53cb86;
+}
+
+.email-template-section .icon-late img {
+  background-color: #fec534;
+}
+
+.email-template-section .icon-absent img {
+  background-color: #f5626b;
+}
+
+.email-template-section .card-icon {
+  font-size: 20px;
+  margin-top: 8px;
+  background-color: #c3c7c9;
+  color: white;
+  padding: 5px 10px;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+
+.email-template-section .label {
+  color: #818181;
+  font-size: 12px;
+  margin: 0;
+}
+
+.email-template-section .value {
+  color: #080808b3;
+  font-size: 18px;
+}
+
+.email-template-section .icon-parent {
+  padding: 7px 0 0 9px;
+}
+.email-template-section .icon-staff {
+  padding: 5px 0 0 5px;
+}
+.email-template-section .icon-person,
+.email-template-section .icon-bus {
+  padding: 7px 0 0 7px;
+}
+.email-template-section .icon-container-person,
+.email-template-section .icon-container-bus,
+.email-template-section .icon-container-parent,
+.email-template-section .icon-container-staff {
+  height: 45px;
+  width: 45px;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+
+.email-template-section .icon-container-person {
+  background-color: #29abe21f;
+}
+
+.email-template-section .icon-container-parent {
+  background-color: #46e1841f;
+}
+
+.email-template-section .icon-container-bus {
+  background-color: #ff922b1f;
+}
+
+.email-template-section .icon-container-staff {
+  background-color: #7367f01f;
+}
+.email-template-section .icon-container-male,
+.email-template-section .icon-container-female {
+  height: 45px;
+  width: 45px;
+  background-color: #29abe21f;
+
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+
+.email-template-section .icon-container-female {
+  background-color: #ffe3f1;
+}
+.email-template-section .icon-container-male img,
+.email-template-section .icon-container-female img {
+  height: 25px;
+  padding: 10px;
+}
+
+.email-template-section .system-attendance {
+  background-color: #fff;
+  border-radius: 6px;
+  padding: 20px;
+  box-shadow: 0 10px 20px #0000000a, 0 2px 6px #0000000a, 0 0 1px #0000000a;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  -ms-border-radius: 6px;
+  -o-border-radius: 6px;
+}
+
+.email-template-section .system {
+  margin-bottom: 16px;
+  background: #7e8ac7;
+  color: #fff;
+  padding: 8px 16px;
+  border-radius: 25px;
+  border: none;
+  font-size: 13px;
+  cursor: pointer;
+  width: 128px;
+}
+
+.email-template-section .container {
+  display: flex;
+  column-gap: 30px;
+}
+
+.email-template-section .leave-note {
+  background-color: #fff;
+  border-radius: 6px;
+  padding: 20px;
+  box-shadow: 0 10px 20px #0000000a, 0 2px 6px #0000000a, 0 0 1px #0000000a;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  -ms-border-radius: 6px;
+  -o-border-radius: 6px;
+}
+.email-template-section .submitted {
+  border-right: 1px solid #bbb2b2;
+  padding: 5px 50px 5px 0;
+}
+.email-template-section .not-submitted {
+  padding: 5px 0 5px 7px;
+}
+
+.email-template-section .text {
+  margin: 0;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 25px;
+  margin-bottom: 15px;
+  letter-spacing: 1px;
+  color: #404040;
+}
+
+.email-template-section .note-container {
+  display: flex;
+  column-gap: 15px;
+  justify-content: center;
+}
+.email-template-section .leave-note-student,
+.email-template-section .leave-note-teacher {
+  width: 20em;
+  border: 1px solid #b8bbbe;
+  padding: 13px;
+  border-radius: 8px;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  -ms-border-radius: 8px;
+  -o-border-radius: 8px;
+}
+
+.email-template-section .leave-note-student p,
+.email-template-section .leave-note-teacher p {
+  margin: 0;
+  margin-bottom: 10px;
+  font-size: 14px;
+  font-weight: 500;
+  border-bottom: 1px solid #b8bbbe;
+}
+
+.email-template-section .leave-note-teacher p {
+  color: black;
+}
+
+.email-template-section .leave-note-student span {
+  margin-top: 90px;
+}
+
+.email-template-section .total-leave {
+  margin-top: 10px;
+}
+
+.email-template-section .total-receivable,
+.email-template-section .summary,
+.email-template-section .today-summary {
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 6px;
+  box-shadow: 0 10px 20px #0000000a, 0 2px 6px #0000000a, 0 0 1px #0000000a;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  -ms-border-radius: 6px;
+  -o-border-radius: 6px;
+}
+.email-template-section .total-summary {
+  display: flex;
+  justify-content: space-between;
+  column-gap: 20px;
+}
+.email-template-section .total-summary > :first-child {
+  padding-right: 3em;
+  border-right: 1px solid #d9d9d9;
+}
+
+.email-template-section .total-summary > :nth-child(2) {
+  padding-right: 3em;
+  border-right: 1px solid #d9d9d9;
+}
+.email-template-section .total-summary > :nth-child(3) {
+  padding-right: 3em;
+}
+.email-template-section .summary-details .summary-item.collection .amount.cash {
+  color: #53cb86;
+}
+.email-template-section .summary-details .summary-item.collection .amount.bank {
+  color: #fec534;
+}
+
+.email-template-section .summary-details > :first-child {
+  /* border-right: 1px solid #b8bbbe; */
+  /* padding-right: 20px; */
+  padding-top: 5px;
+}
+.email-template-section .summary-details > :nth-child(2) {
+  /* border-right: 1px solid #b8bbbe; */
+  /* padding-right: 20px; */
+  padding-top: 5px;
+}
+
+.email-template-section .cash-info table {
+  position: absolute;
+  top: 0;
+}
+.email-template-section .cash-info {
+  display: flex;
+  column-gap: 10px;
+}
+.email-template-section .cash-info span {
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.email-template-section .cash-flow > div:nth-child(2) {
+  margin-top: 20px;
+}
+
+.email-template-section .total-receivable .text,
+.email-template-section .today-summary .text {
+  /* background-color: #f2f2f2; */
+  /* padding: 0 15px; */
+  border-top-left-radius: 6px;
+  border-top-right-radius: 6px;
+}
+
+.email-template-section .leave-note > div:nth-child(2) {
+  margin-bottom: 10px;
+}
+
+.email-template-section .total-assignment > p:first-child {
+  margin: 0;
+  font-size: 14px;
+  font-weight: 500;
+  color: #404040;
+  padding-bottom: 3px;
+}
+.email-template-section .submission-summary {
+  display: flex;
+  margin-top: 7px;
+}
+.email-template-section .submission-summary p {
+  color: #080808b3;
+  font-size: 14px;
+  margin: 0;
+}
+.email-template-section .h-submitted {
+  color: #3bb9eb;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 1.2;
+  padding-bottom: 5px;
+}
+
+.email-template-section .h-not-submitted {
+  color: #f5626b;
+  font-size: 14px !important;
+  font-weight: 600 !important;
+  line-height: 1.2 !important;
+  padding-bottom: 5px;
+}
+
+.email-template-section .cash-flow-container .current {
+  padding-top: 5px;
+}
+.email-template-section .cash-flow-container .overdue {
+  width: 50%;
+  padding-top: 8px;
+  padding-left: 8px;
+  padding-bottom: 5px;
+}
+
+.email-template-section .cash-flow-container,
+.email-template-section .summary-container {
+  display: flex;
+  /* margin: 0 15px; */
+}
+
+.email-template-section .cash-flow-container .current {
+  width: 50%;
+  /* padding: 7px; */
+}
+
+.email-template-section .summary-container .current,
+.email-template-section .summary-container .overdue {
+  width: 30%;
+}
+
+.email-template-section .summary-container .overdue {
+  padding-left: 8px;
+}
+.email-template-section .current p,
+.email-template-section .overdue p {
+  margin: 0;
+  font-size: 10px;
+  color: #777;
+  font-weight: medium;
+  line-height: 1.2;
+}
+
+.email-template-section .overdue p {
+  padding-bottom: 3px;
+}
+
+.email-template-section .current .cash-amount,
+.email-template-section .overdue .cash-amount {
+  margin: 0;
+  font-size: 14px !important;
+  font-weight: 600 !important;
+  line-height: 1.2 !important;
+}
+.email-template-section .summary-item.collection {
+  padding-bottom: 5px;
+}
+.email-template-section .email-template-section .current .cash-amount,
+.email-template-section
+  .email-template-section
+  .summary-item.collection
+  .amount,
+.email-template-section .email-template-section .summary-item.discount .amount,
+.email-template-section .email-template-section .summary-item.expenses .amount {
+  color: #3bb9eb;
+  margin: 3px 0;
+  font-size: 14px !important;
+  font-weight: 600 !important;
+  line-height: 1.2 !important;
+  padding-bottom: 5px;
+}
+
+.email-template-section .summary-item.discount .amount {
+  color: #53cb86;
+}
+.email-template-section .summary-item.expenses .amount {
+  color: #f5626b;
+}
+.email-template-section .overdue .cash-amount {
+  color: #fc4b4b;
+}
+.email-template-section .overdue {
+  /* padding: 0 15px; */
+  border-left: 1px solid #b8bbbe;
+}
+
+.email-template-section .money-flow {
+  margin: 0 20px;
+  padding: 25px 20px 24px 20px;
+  background-color: #fff;
+  border-radius: 6px;
+  box-shadow: 0 10px 20px #0000000a, 0 2px 6px #0000000a, 0 0 1px #0000000a;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  -ms-border-radius: 6px;
+  -o-border-radius: 6px;
+  margin-bottom: 20px;
+}
+
+.email-template-section .money-flow-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  width: 50em;
+  gap: 20px;
+}
+
+.email-template-section .cash-today,
+.email-template-section .cash-on-hand,
+.email-template-section .cash-at-bank {
+  background-color: #e8f7f4;
+  border: 1px solid rgb(142, 216, 202);
+  padding: 10px;
+  border-radius: 6px;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  -ms-border-radius: 6px;
+  -o-border-radius: 6px;
+}
+
+.email-template-section .cash-on-hand {
+  background-color: #fdf7e9;
+  border: 1px solid rgb(244, 198, 90);
+}
+
+.email-template-section .cash-at-bank {
+  background-color: #edf7fb;
+  border: 1px solid rgb(0, 138, 197);
+}
+
+.email-template-section .cash-today .label,
+.email-template-section .cash-on-hand .label,
+.email-template-section .cash-at-bank .label {
+  margin-bottom: 7px;
+  font-size: 14px;
+  font-weight: 500;
+  color: #646464;
+}
+
+.email-template-section .cash-today .label.amount {
+  color: #0cdab0;
+}
+.email-template-section .cash-on-hand .label.amount {
+  color: #ffb300;
+}
+.email-template-section .cash-at-bank .label.amount {
+  color: #22b4ee;
+}
+.email-template-section .cash-today div,
+.email-template-section .cash-at-bank div,
+.email-template-section .cash-on-hand div {
+  display: flex;
+  justify-content: space-between;
+}
+
+.email-template-section .table-head {
+  margin-bottom: 10px;
+  font-size: 14px;
+  font-weight: 500;
+}
+.email-template-section .cash-info table,
+.email-template-section .cash-info th,
+.email-template-section .cash-info td {
+  border: 1px solid #d6d1d1;
+  border-collapse: collapse;
+}
+
+.email-template-section table,
+.email-template-section th,
+.email-template-section td {
+  border-collapse: collapse;
+  padding: 4px 8px;
+  /* border: 1px solid black; */
+}
+.email-template-section th {
+  text-align: left;
+  color: #404040;
+  border-left: none;
+}
+.email-template-section td {
+  font-size: 14px;
+  color: #080808b3;
+  border-left: none;
+}
+
+.email-template-section th,
+.email-template-section td {
+  border-bottom: 1px solid #929191b3;
+}
+.email-template-section svg {
+  width: 40px;
+  height: 40px;
+  border-radius: 27px;
+  background: #53cb86;
+}
+
+@media (max-width: 900px) {
+  .email-template-section {
+    margin: 0;
+  }
+  .email-template-section .money-flow-container {
+    width: 100%;
+    padding-right: 20px;
+  }
+}
+
+@media (max-width: 790px) {
+  .email-template-section .total-summary > :first-child {
+    padding-right: 6em;
+  }
+
+  .email-template-section .total-summary > :nth-child(2) {
+    padding-right: 6em;
+  }
+  .email-template-section .total-summary > :nth-child(3) {
+    padding-right: 3em;
+  }
+}
+@media (max-width: 520px) {
+  .email-template-section .total-summary > :first-child {
+    padding-right: 2em;
+  }
+  .email-template-section .total-summary > :nth-child(2) {
+    padding-right: 2em;
+  }
+  .email-template-section .total-summary > :nth-child(3) {
+    padding-right: 1em;
+  }
+}
+@media (max-width: 400px) {
+  .email-template-section .total-card {
+    padding: 0;
+  }
+  .email-template-section .custom-card {
+    margin-top: 20px;
+  }
+}
